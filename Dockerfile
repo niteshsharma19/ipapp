@@ -6,6 +6,6 @@ RUN python3 -m pip install --upgrade pip
 
 RUN pip3 install flask
 
-COPY myappip.py /myappip.py
+COPY myapp.py /myapp.py
 
 CMD ["python3" ,"./myapp.py"]
