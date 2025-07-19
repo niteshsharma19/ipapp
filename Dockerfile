@@ -8,4 +8,4 @@ RUN pip3 install flask
 
 COPY myappip.py /myappip.py
 
-CMD ["python3" ,"./myappip.py"]
+CMD ["python3" ,"./myapp.py"]
